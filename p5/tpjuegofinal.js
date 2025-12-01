@@ -14,10 +14,10 @@ let imgPortada;
 
 
 function preload() {
-  imgSoos  = loadImage("img/Soos.png");
-  imgDiper = loadImage("img/Diper.png");
-  imgFondo = loadImage("img/Fondo.jpg");
-  imgBola  = loadImage("img/Bola.png");
+  imgSoos  = loadImage("img/soos.png");
+  imgDiper = loadImage("img/diper.png");
+  imgFondo = loadImage("img/fondo.jpg");
+  imgBola  = loadImage("img/bola.png");
   imgPortada = loadImage("img/portada.jpg"); 
  
 miSonido = loadSound('libraries/videojuegosonido.mp3');
@@ -133,3 +133,4 @@ function reiniciarJuego() {
   tiempoInicio = millis();
   pantallas.cambiar(3);
 }
+
